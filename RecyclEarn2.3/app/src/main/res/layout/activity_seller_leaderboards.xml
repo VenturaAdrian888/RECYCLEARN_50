@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_drawer_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".SellerLeaderboards"
+    android:background="@drawable/gradientleaderboard"
+    tools:openDrawer="">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/gradient"
+        android:theme="@style/navigationTheme"
+        app:headerLayout="@layout/activity_seller_headernav"
+        app:menu="@menu/main_sellernav" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/leaderboardContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dashboardbj"
+        android:padding="10dp">
+        <!--headers-->
+        <ImageView
+            android:id="@+id/btn_drawer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/ic_baseline_format_list_bulleted_24"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:layout_constraintBottom_toTopOf="@+id/guideline54"
+            app:layout_constraintEnd_toStartOf="@+id/guideline57"
+            app:layout_constraintStart_toStartOf="@+id/guideline55"
+            app:layout_constraintTop_toTopOf="@+id/guideline53" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/logos"
+            app:layout_constraintBottom_toTopOf="@+id/guideline54"
+            app:layout_constraintEnd_toStartOf="@+id/guideline59"
+            app:layout_constraintStart_toStartOf="@+id/guideline58"
+            app:layout_constraintTop_toTopOf="@+id/guideline53" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Seller_Profile1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/user"
+            app:srcCompat="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:layout_constraintBottom_toTopOf="@+id/guideline54"
+            app:layout_constraintEnd_toStartOf="@+id/guideline56"
+            app:layout_constraintStart_toStartOf="@+id/guideline60"
+            app:layout_constraintTop_toTopOf="@+id/guideline53" />
+
+
+        <!-- constraints-->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.001" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="57dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.005" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.99" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.155" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.335" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.715" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_drawer">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="106dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView11"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/leaderboard">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginEnd="106dp"
+                android:layout_marginBottom="14dp"
+                android:autoSizeTextType="uniform"
+                android:text="Leaderboards"
+                android:textColor="#1f1f7a"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_marginTop="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1400dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="360dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginEnd="36dp"
+                        android:backgroundTint="#ffffcc"
+                        app:cardElevation="0dp"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/sell1"
+                                android:layout_width="86dp"
+                                android:layout_height="74dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/user">
+
+                            </de.hdodenhof.circleimageview.CircleImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="Papi_James21"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="1000"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/gold"
+                                >
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="230dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/crown"
+                                >
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="190dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="240dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/user"
+                                >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="XyruzJakie7"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="656"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/bronze"
+                                >
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="230dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="350dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/user"
+                                >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="FrancisM47"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="534"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="460dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/user"
+                                >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="PapumaBabe1"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="498"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="570dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/user"
+                                >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="chupappi69"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="480"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="680dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/user"
+                                >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="beast_master44"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="390"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="790dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/user"
+                                >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="lastLods77"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="315"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="900dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/user"
+                                >
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="sherwinboi"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="287"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="320dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="130dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            android:backgroundTint="#dae5f7"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            >
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/sell2"
+                                android:layout_width="86dp"
+                                android:layout_height="74dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/user"
+                                >
+                            </de.hdodenhof.circleimageview.CircleImageView>
+
+                            <TextView
+                                android:layout_width="147dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="RendonLabrador0"
+                                android:textColor="@color/black"
+                                >
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="48dp"
+                                android:layout_height="29dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:text="832"
+                                android:textStyle="bold"></TextView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="270dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/silver"
+                                >
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="230dp"
+                                android:layout_marginTop="60dp"
+                                app:srcCompat="@drawable/badge"
+                                >
+
+                            </ImageView>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "809098669594",
+    "firebase_url": "https://recyclearn-97192-default-rtdb.firebaseio.com",
+    "project_id": "recyclearn-97192",
+    "storage_bucket": "recyclearn-97192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809098669594:android:bbb2fb795fe041a15a6ba3",
+        "android_client_info": {
+          "package_name": "com.example.recyclearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809098669594-uhhko599hdg9b32q3vrdkruahom44v52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdym3O0XFALnuKGGBfmD3GicSGbMOgYTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809098669594-uhhko599hdg9b32q3vrdkruahom44v52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

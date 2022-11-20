@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentslide1">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/constraintLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="549dp"
+                            android:background="@drawable/box"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <ImageView
+                            android:layout_width="336dp"
+                            android:layout_height="204dp"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/slide1"
+                            app:layout_constraintBottom_toTopOf="@+id/textView13"
+                            app:layout_constraintEnd_toStartOf="@+id/guideline119"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="@+id/guideline121"
+                            app:layout_constraintTop_toTopOf="@+id/imageView9"
+                            app:layout_constraintVertical_bias="0.204" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/textView14"
+                            android:layout_marginBottom="29dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="start"
+                            android:paddingStart="20sp"
+                            android:text="Put the water bottle cap back on after consuming."
+                            android:textColor="#2b2b2b"
+
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/textView14"
+                            app:layout_constraintEnd_toStartOf="@+id/guideline119"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/guideline121" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="39dp"
+                            android:fontFamily="sans-serif"
+                            android:paddingStart="20sp"
+                            android:paddingEnd="10sp"
+
+                            android:text="Separated caps can reek havoc on equipment sending them to the landfill and causing production to come to a halt. To prevent this from happening, please replace the cap once you have finished."
+                            android:textAlignment="textStart"
+                            android:textColor="#2b2b2b"
+                            android:textSize="18sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                            app:layout_constraintHorizontal_bias="0.0"
+                             />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline119"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="1.0" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline121"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

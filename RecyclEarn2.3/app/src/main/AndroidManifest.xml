@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.recyclearn">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RecyclEarn"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Recyclearn"
+        tools:replace="andorid:label"
+        tools:targetApi="31">
+        <activity
+            android:name=".BuyerAboutUs"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SellerAboutUs"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BuyerUpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SellerUpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerTradeSuccess"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SellerTradeConfirmation"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BuyerBottleReq"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SellerBottleReq"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BuyerScanner"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BuyerTradeQr"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SellertradeGenerate"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SellerTradeGenQR"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAFN0WZ7y849V6DW4rTKrjBRUFxSaIb4Ak" />
+
+        <activity
+            android:name=".BuyerFaqs"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerLearderboards"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerTrade"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerRedeem"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerLocation"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".XXX"
+            android:exported="false" />
+        <activity
+            android:name=".Buyer_Headernav"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerForgotPassword2"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerRegister"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerLogIn"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRedeem"
+            android:exported="false" />
+        <activity
+            android:name=".SellerFaqs"
+            android:exported="false" />
+        <activity
+            android:name=".SellerLeaderboards"
+            android:exported="false" />
+        <activity
+            android:name=".SellerTrade"
+            android:exported="false" />
+        <activity
+            android:name=".Seller_Headernav"
+            android:exported="false" />
+        <activity
+            android:name=".SellerLocation"
+            android:exported="false" />
+        <activity
+            android:name=".SellerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SellerDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".SellerForgotPassword2"
+            android:exported="false" />
+        <activity
+            android:name=".SellerForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister"
+            android:exported="false" />
+        <activity
+            android:name=".SellerLogIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

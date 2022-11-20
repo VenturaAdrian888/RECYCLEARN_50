@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_buyerhome"
+            android:icon="@drawable/seller_home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_buyerprofile"
+            android:icon="@drawable/seller_profile_icon"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_buyerinfo"
+            android:icon="@drawable/learnimg"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_buyerlogout"
+            android:icon="@drawable/exit_icon"
+            android:title="Log Out" />
+    </group>
+</menu>

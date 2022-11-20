@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/libear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/code_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is RecylEarn?"
+            android:textSize="25sp"
+            android:textColor="#292929"
+            android:textStyle="bold"
+            android:padding="20sp"/>
+        <RelativeLayout
+            android:id="@+id/expandable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An app that can convert plastic bottles into cash/vouchers that may motivate and encourage residents of Baguio City to properly segregate their plastic bottles."
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:textColor="#292929"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

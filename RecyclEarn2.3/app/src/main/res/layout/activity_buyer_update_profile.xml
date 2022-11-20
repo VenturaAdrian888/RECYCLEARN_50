@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".BuyerUpdateProfile">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="220dp"
+        android:layout_height="80sp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="106dp"
+        android:autoSizeTextType="uniform"
+        android:text="Update Profile"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#004080"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="256dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Username:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:padding="8dp"
+        android:background="@drawable/textbox"
+        android:hint="Username"
+        android:textColorHint="#b0b0b0"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="156dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Name/Fullname:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editUsername">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editFullname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:padding="8dp"
+        android:hint="Full Name/Name"
+        android:textColorHint="#b0b0b0"
+        android:background="@drawable/textbox"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="408dp"
+        android:backgroundTint="#060b4e"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Save Changes"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editFullname"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.193" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1535" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/checkbox.xml" value="0.142" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/darkbluebutton.xml" value="0.1535" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/exiticon.xml" value="0.182" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/ic_baseline_check_box.xml" value="0.142" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/ic_baseline_check_box_outline.xml" value="0.142" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.143" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.143" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.143" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/info_icon.xml" value="0.182" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/loginbutton.xml" value="0.102" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/rec.xml" value="0.102" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/rectangle.xml" value="0.102" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/rectangle_gradient.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/seller_home_icon.xml" value="0.143" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/side_nav_bar.xml" value="0.143" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/superrectangle.xml" value="0.1535" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/textbox.xml" value="0.102" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/drawable/transparentrectangle.xml" value="0.115" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/font/archivo_black.xml" value="0.2072072072072072" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout-v26/activity_seller_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_dashboard.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_faqs.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_forgot_password.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_forgot_password2.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_headernav.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_learderboards.xml" value="0.17866666666666667" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_location.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_log_in.xml" value="0.5" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_profile.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_redeem.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_register.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_buyer_trade.xml" value="0.17866666666666667" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_fffffff.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_sammple.xml" value="0.16441441441441443" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_drawer.xml" value="0.18258034466697717" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_faqs.xml" value="0.16441441441441443" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_forgot_password.xml" value="0.22" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_forgot_password2.xml" value="0.18" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_forgot_password3.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_forgot_password_re_enter.xml" value="0.16" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_forgot_password_two.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_headernav.xml" value="0.33" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_leaderboards.xml" value="0.16441441441441443" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_location.xml" value="0.33" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_log_in.xml" value="0.33" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_profile.xml" value="0.20765027322404372" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_redeem.xml" value="0.16441441441441443" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_register.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_seller_trade.xml" value="0.2703429724277068" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/activity_xxx.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/app_bar_seller_drawer.xml" value="0.17657657657657658" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/content_seller_drawer.xml" value="0.17657657657657658" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/fragment_home.xml" value="0.17657657657657658" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/fragment_slideshow.xml" value="0.17657657657657658" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/nav_header_seller_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/seller_headernav.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/layout/seller_profile.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/menu/buyernav.xml" value="0.1810810810810811" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/menu/main_sellernav.xml" value="0.16441441441441443" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/menu/seller_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Recyclearn2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.105" />
+        <entry key="..\:/Users/USER/Desktop/RecyclEarn2.2/app/src/main/res/drawable/background_splashscreen.xml" value="0.2155" />
+        <entry key="..\:/Users/USER/Desktop/RecyclEarn2.2/app/src/main/res/layout/activity_buyer_profile.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/RecyclEarn2.2/app/src/main/res/layout/activity_buyer_update_profile.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/RecyclEarn2.2/app/src/main/res/layout/activity_main.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/RecyclEarn2.2/app/src/main/res/layout/activity_seller_profile.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/RecyclEarn2.2/app/src/main/res/layout/activity_seller_update_profile.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/RecyclEarn2.2/app/src/main/res/layout/activity_start.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/RecyclEarn2.2/app/src/main/res/layout/activity_xxx.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/drawable/darkbluebutton.xml" value="0.2155" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/drawable/qrscanbox.xml" value="0.2155" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_bottle_req.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_faqs.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_headernav.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_learderboards.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_profile.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_redeem.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_trade.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_buyer_trade_qr.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_seller_bottle_req.xml" value="0.17452402538531278" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_seller_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_seller_faqs.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/layout/activity_seller_headernav.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/menu/buyernav.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2.1/app/src/main/res/menu/main_sellernav.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/drawable-v24/gradientleaderboard.xml" value="0.2155" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/drawable/faqsbox.xml" value="0.2155" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/drawable/leaderboardbox.xml" value="0.215" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/drawable/locationbox.xml" value="0.215" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/drawable/superrectangle.xml" value="0.215" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/drawable/tradebox.xml" value="0.215" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_about_us.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_buyer_dashboard.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_buyer_faqs.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_buyer_location.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_buyer_log_in.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_buyer_register.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_bottle_req.xml" value="0.17407071622846781" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_faqs.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_headernav.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_leaderboards.xml" value="0.17452402538531278" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_location.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_log_in.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_profile.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_redeem.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_register.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_trade.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_seller_trade_gen_qr.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/layout/activity_sellertrade_generate.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/menu/buyernav.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/USER/Desktop/Updated Recyclearn/Recyclearn2/app/src/main/res/menu/main_sellernav.xml" value="0.21621621621621623" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
